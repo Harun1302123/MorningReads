@@ -1,27 +1,83 @@
-# MorningReads
-This is a newsportal site developed in php mysql
+<p align="center"><img src="public/assets/images/OSS_Framework_Logo.PNG"></p>
 
+<h1>One Stop Service Platform (OSSP)</h1>
+Version: 3.2
+<br/>
+Website: <a href="https://osspid.org/">https://osspid.org/</a>
+<br/>
+Developed By: <a href="https://ocpl.com.bd/">Online Content Provider Limited</a>
 
-url: http://news.venusrangpur.com/
+## What is OSSP?
+One Stop Service Platform (OSSP) is an automated process re-engineering service that maintains enhanced security, privacy as well as audit logs. It is an incredibly useful framework that introduces various latest features with extra layer security and reliability.
 
+As a centralized system, this framework reduces process time
+and expenses, also offers end-to-end application process with
+data transparency, security and non-repudiation. This
+platform independent framework has central login facility and
+authentication system where multi-level security is ensured
+from a single point. Hence, with single credentials (one email
+and password), it is possible in OSSP to access multiple authorized systems. Third-party login systems such as Google and
+UDC (Union Digital Center) are also available here. Moreover, its
+scalability allows integration of multiple services.
 
+## Features
 
-database sql: morning_reads_db.sql
-zip file: backup_file_morning_reads.zip
+- OSSPID
+- Dynamic Dashboard
+- Dynamic Report
+- Integration with other system
+- Online Payment
+- Stakeholder Connector
+- Central document server with verification
+- Blockchain
+- Board Meeting
+- Training System
 
+## Built with
+- PHP 8.2 
+- Laravel 10
+- Composer 2.6.6
+  <br/><br/>
+- NPM 6.9.2
+- Node 14.17.3
+- VueJS 3.3.4
+  <br/><br/>
+- MySQL 8.0.29
+- MongoDB 6.0
+  <br/><br/>
+- Bootstrap 4.6.1
+- AdminLTE 3.2.0
+- jQuery 3.6.0
+  
+## Built with docker
+check if you have docker installed in local computer.<br/>
+- docker-compose up -d <br/>
+- docker exec -it ossp-v3.0 /bin/bash <br/>
+- cp .env.example .env <br/>
+- composer install <br/>
+- npm install <br/>
+- npm run dev <br/>
+- npm run prod <br/>
+- Application http://localhost:8020 <br/>
 
+- Mysql 8 (now we use remote ip)
+  and many more
 
+## Deployment dependency
+- Please copy the env.example file and create a new file named .env
+- Necessary parameter update
+- Composer install
+- Others command run
+- Then php artisan serve
 
+## Our Clients
 
-install instruction:
+- [Bangladesh Investment Development Authority (BIDA)](https://bidaquickserv.org/)
+- [Bangladesh Hi-Tech Park Authority (BHTPA)](https://ossbhtpa.gov.bd/)
+- [Bangladesh Economic Zones Authority (BEZA)](https://beza.oss.net.bd/)
+- [Ministry of Civil Aviation and Tourism (MoCAT)](https://regtravelagency.gov.bd/)
+- [Bangladesh Council of Scientific and Industrial Research (BCSIR)](https://bcsir.eserve.org.bd/)
+- [NOC Automation & IMEI Database (BTRC)](https://naid.btrc.gov.bd/)
+- [Bangladesh Association of Software & Information Services (BASIS)](https://oss.basis.org.bd/)
 
-1. unzip all file
-
-2. create database and import morning_reads_db.sql file
-
-3. change config.php file (file location admin-website/src/config.php)
-
-4. to login admin section write "/admin-website" after main file (example: localhost/morningreads/admin-website)
-
-5. login email: octeradigital@gmail.com 
-	 password: 123
+## Contribution
