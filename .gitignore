@@ -8,7 +8,8 @@
 /public/shadow-file/*
 /public/certificate/*
 
-
+storage/*
+bootstrap/cache/
 
 /vendor
 .env
